@@ -1,0 +1,182 @@
+@import 'https://fonts.googleapis.com/css?family=Alegreya+Sans';
+
+html, body {
+	margin: 0;
+	border: 0;
+	padding: 0;
+	font-family: 'Alegreya', sans-serif;
+}
+
+#header-inner {
+	background-color: #5D87A3;
+}
+
+#header-inner a img{
+	padding: 20px;
+	margin-left: 40px;
+}
+
+#header-inner nav {
+	float: right;
+	padding: 13px;
+	margin-right: 20px;
+}
+
+#header-inner nav ul li {
+	display: inline-block;
+	font-size: 1.4em;
+	color: #DCF0FF;
+	text-transform: uppercase;
+	margin-right: 20px;
+	font-weight: 600;
+}
+
+#header-inner nav ul li.active {
+	color: #90B0C5;
+}
+
+a, a:hover, a:visited, a:active {
+	color: inherit;
+	text-decoration: none;
+}
+
+#banner-inner {
+	text-align: center;
+	background-color: #5D87A3;
+}
+
+#skill-list {
+	display: inline-flex;
+	min-width: 100%;
+	height: auto;
+}
+
+#skill-list div div {
+	text-align: center;
+	margin-top: 10%;
+}
+
+#skill-list div div i {
+	font-size: 7em;
+	color: white;
+	text-align: center;
+}
+
+#skill-list div div h3 {
+	font-size: 3em;
+	color: white;
+}
+
+.one-fourth {
+	width: 25%;
+	height: auto;
+}
+
+#html {
+	background-color: #E99480;
+}
+
+#css {
+	background-color: #B4AB9F;
+}
+
+#seo {
+	background-color: #9CD5C6;
+}
+
+#social {
+	background-color: #92A2B1;
+}
+
+#first {
+	background-color: #92A2B1;
+	display: inline-flex;
+}
+
+#second {
+	background-color: #9CD5C6;
+	display: inline-flex;
+}
+
+#third {
+	background-color: #B4AB9F;
+	display: inline-flex;
+}
+
+.half {
+	width: 50%;
+}
+
+#maininfo {
+	color: white;
+	text-align: center;
+}
+
+#maininfo h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+#maininfo p {
+	font-size: 1.6em;
+}
+
+#ipadtext-inner {
+	width: 75%;
+	margin-left: 12.5%;
+	padding: 10px;
+}
+
+#phonetext-inner {
+	width: 75%;
+	margin-left: 12.5%;
+	padding: 10px;
+}
+
+#comptext-inner {
+	width: 75%;
+	margin-left: 12.5%;
+	padding: 10px;
+}
+
+#extrainfo {
+	display: inline-flex;
+}
+
+.one-third {
+	width: 33.333333333%;
+}
+
+.inner-thirds {
+	text-align: center;
+	width: 60%;
+	margin-left: 19%;
+	color: white;
+	padding-top: 6%;
+	padding-bottom: 6%;
+}
+
+.inner-thirds h1 {
+	text-transform: uppercase;
+	font-size: 2em;
+}
+
+.inner-thirds p {
+	font-size: 1.5em;
+}
+
+#google-search {
+	background-color: #E99480;
+}
+
+#marketing {
+	background-color: #9CD5C6;
+}
+
+#happy-customers {
+	background-color: #92A2B1;
+}
+
+#socialfooter {
+	background-color: #B4AB9F;
+}
